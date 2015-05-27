@@ -254,10 +254,10 @@ public class MainActivity extends Activity {
 
             }
         });
-        a28.getAnimator().setStartDelay(2500);
-        a28.getAnimator().setDuration(2500);
-        a29.getAnimator().setDuration(2500);
-        a30.getAnimator().setDuration(2500);
+        a28.getAnimator().setStartDelay(1000);
+        a28.getAnimator().setDuration(4000);
+        a29.getAnimator().setDuration(4000);
+        a30.getAnimator().setDuration(4000);
 
         AnimationFactory.getInstance().createEngine().startTogetherByLink(
                 null,a3,a4,a5,a6,a7,
